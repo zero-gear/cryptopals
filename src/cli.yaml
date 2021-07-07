@@ -1,0 +1,15 @@
+name: cryptopals solutions
+version: "1.0"
+author: Oleh Franchuk <0x00.gear@gmail.com>
+about: Solutions for https://cryptopals.com/
+args:
+    - challenge:
+        short: c
+        long: challenge
+        value_name: NUM
+        about: choose challenge number
+        takes_value: true
+        required: true
+    - INPUT:
+        about: challenge input
+        required: true
